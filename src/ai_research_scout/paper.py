@@ -8,4 +8,4 @@ class ResearchPaper:
     authors: list[str]
     abstract: str
     published_date: date
-    pdf_url: str
+    pdf_url: str | None
